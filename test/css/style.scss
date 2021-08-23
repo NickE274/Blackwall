@@ -1,0 +1,21 @@
+@import "blocks/vars";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/phone";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+

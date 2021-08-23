@@ -1,0 +1,384 @@
+header {
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+header section {
+  max-width: 1400px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header section a {
+  text-decoration: none;
+  color: #18216D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+header section .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 8%;
+}
+
+header section .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header section .logo a svg {
+  margin-right: 7px;
+}
+
+header section nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 507px;
+}
+
+header section .menu {
+  display: none;
+}
+
+header section .registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+header section .registration--sing {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+header section .registration--download {
+  background: #18216D;
+  border-radius: 6px;
+  padding: 16px 27px;
+  color: #ffffff;
+  margin-left: 45px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+main {
+  margin-bottom: 50vh;
+}
+
+main section:not(:last-child) {
+  margin-bottom: 120px;
+}
+
+main section .intro {
+  background: url(/img/image.png) no-repeat;
+  height: 519px;
+  background-position: right bottom;
+  padding-top: 95px;
+  margin-bottom: 27px;
+  background-size: 55%;
+}
+
+main section .intro h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #18216D;
+  max-width: 498px;
+  margin-bottom: 16px;
+}
+
+main section .intro p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #18216D;
+  max-width: 484px;
+  margin-bottom: 34px;
+}
+
+main section .intro a {
+  padding: 22px 37px;
+  color: #18216D;
+  background: #00ECD0;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+main section .appraisals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 49px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section .appraisals__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #18216D;
+  max-width: 494px;
+}
+
+main section .appraisals__like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 350px;
+}
+
+main section .appraisals__like h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  color: #18216D;
+}
+
+main section .appraisals__like svg {
+  line-height: 10px;
+}
+
+main section .appraisals__like p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #18216D;
+}
+
+main section .company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .info h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  color: #18216D;
+  margin-bottom: 12px;
+}
+
+main .info p {
+  text-align: center;
+  max-width: 542px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #18216D;
+  margin: 0 auto 48px auto;
+}
+
+main .info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .info div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 320px;
+}
+
+main .info div div svg {
+  margin-bottom: 28px;
+}
+
+main .info div div h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #18216D;
+  margin-bottom: 14px;
+}
+
+main .info div div p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #18216D;
+  opacity: 0.6;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+main .info div div a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  color: #18216D;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 376px) {
+  header section {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header section nav {
+    display: none;
+  }
+  header section .menu {
+    display: block;
+    margin-right: 10px;
+  }
+  header section .registration {
+    display: none;
+  }
+  main section:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  main section .intro {
+    text-align: center;
+    background-size: 100%;
+    background-position: bottom;
+    padding-top: 0;
+  }
+  main section .intro h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 27px;
+  }
+  main section .intro p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main section .intro a {
+    padding: 11px 17px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  main section .appraisals__title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  main section .appraisals__like {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  main section .appraisals__like--information h1 {
+    font-size: 39px;
+    line-height: 35px;
+  }
+  main section .appraisals__like--information div svg {
+    width: 9px;
+    height: 100%;
+  }
+  main section .appraisals__like--information p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  main .company img {
+    width: 20%;
+    height: 100%;
+  }
+  main .company img:nth-last-child(-n+2) {
+    display: none;
+  }
+  main .info {
+    padding: 0 10px;
+  }
+  main .info h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  main .info p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    opacity: 0.5;
+  }
+  main .info div:not(:last-child) {
+    margin-bottom: 48px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

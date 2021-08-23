@@ -1,0 +1,70 @@
+header {
+    padding-top: 25px;
+    margin-bottom: 50px;
+    
+    &  section {
+        max-width: 1400px !important;
+        @include disflex;
+        width: 100%;
+        
+        &  a {
+            text-decoration: none;
+            color: $color;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        &  .logo {
+            @include disflex;
+            align-items: center;
+            margin-right: 8%;
+
+            &  a {
+                @include disflex;
+                align-items: center;
+
+                &  svg {
+                    margin-right: 7px;
+                }
+            }
+        }
+
+        &  nav {
+            @include disflex;
+            align-items: center;
+            justify-content: space-between;
+            width: 507px;
+        }
+
+        &  .menu {
+            display: none;
+        }
+
+        &  .registration {
+            @include disflex;
+            align-items: center;
+            margin-left: auto;
+
+            &--sing {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            &--download {
+                background: $color;
+                border-radius: 6px;
+                padding: 16px 27px;
+                color: #ffffff;
+                margin-left: 45px;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+
+            }              
+        }
+    }
+}
